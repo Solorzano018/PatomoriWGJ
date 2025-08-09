@@ -7,10 +7,66 @@ using TMPro;
 
 public class ChangeScene : MonoBehaviour
 {
-    public Image fadeImage;
-    public TextMeshProUGUI dayText;
-    public float fadeTime;
+    FadeOut fadeout;
+    public void LoadNextScene()
+    {
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        int totalScenes = SceneManager.sceneCountInBuildSettings;
+        int nextIndex = currentIndex + 1;
 
+        if (nextIndex < totalScenes)
+        {
+            SceneManager.LoadScene(nextIndex);
+        }
+        else
+        {
+            Debug.Log("No hay más escenas para cargar.");
+        }
+        
+       
+    }
+
+    /*
+    public FadeOut fadeOut;
+    private static SceneController instance;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+    }
+
+    public void LoadSceneWithFade(int sceneIndex)
+    {
+        StartCoroutine(LoadSceneRoutine(sceneIndex));
+    }
+
+    private IEnumerator LoadSceneRoutine(int sceneIndex)
+    {
+        // Setear el texto del día ANTES de cambiar de escena
+        int day = Mathf.Clamp(sceneIndex, 1, 99);
+        fadeController.SetDayText("Día " + day);
+
+        // Cargar la escena inmediatamente
+        AsyncOperation op = SceneManager.LoadSceneAsync(sceneIndex);
+        while (!op.isDone)
+            yield return null;
+
+        // Esperar un momento por seguridad
+        yield return new WaitForSeconds(0.2f);
+
+        // Iniciar el fade out
+        fadeController.StartFadeOut();
+    }
+    /*
     public void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -20,36 +76,6 @@ public class ChangeScene : MonoBehaviour
     {
         StartCoroutine(FadeAndLoad(numScene));
     }
+    */
 
-    private IEnumerator FadeAndLoad(int numScene)
-    {
-        fadeImage.gameObject.SetActive(true);
-        dayText.gameObject.SetActive(true);
-
-        int day = Mathf.Clamp(numScene, 1, 3);
-        dayText.text = "Dia " + day;
-
-        for (float t = 0; t < fadeTime; t += Time.deltaTime)
-        {
-            fadeImage.color = new Color(0,0,0, t / fadeTime);
-            yield return null;
-        }
-        fadeImage.color = Color.black;
-
-        yield return new WaitForSeconds(fadeTime);
-
-        AsyncOperation op = SceneManager.LoadSceneAsync(numScene);
-        while (!op.isDone)
-            yield return null;
-
-        for (float t = 0; t < fadeTime; t += Time.deltaTime)
-        {
-            fadeImage.color = new Color(0,0,0,1 - (t / fadeTime));
-            yield return null;
-        }
-        fadeImage.color = new Color(0, 0, 0, 0);
-
-        fadeImage.gameObject.SetActive(false);
-        dayText.gameObject.SetActive(false);
-    }
 }
