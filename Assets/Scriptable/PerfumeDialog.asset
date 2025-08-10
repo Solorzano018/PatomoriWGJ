@@ -12,10 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39c38f347ac837e41ac1b2c1d48c8191, type: 3}
   m_Name: PerfumeDialog
   m_EditorClassIdentifier: 
-  context: []
-  optA: 
+  context:
+  - 'ARI: Pues claro, me quiere a mi. '
+  - 'ARI: Podemos planear vernos, planear nuestra vida juntos, algo.'
+  - 'RING RING  '
+  - "El celular de ARI empieza a sonar con la notificaci\xF3n de una llamada entrante.   "
+  - "SAM: \xA1ARI, ya lo hice! \xA1Ya lo hice! \xA1Ya podemos estar VERDADERAMENTE
+    juntos! "
+  - "ARI \xBFA qu\xE9 te refieres amor? \xBFVendr\xE1s a mi casa? De qu\xE9 hablas? "
+  - "SAM: No. \xA1Por fin termin\xE9 con KARA!. Finalmente tom\xE9 valent\xEDa para
+    cortar con ella.  "
+  - "ARI \xBFQui\xE9n es KARA? \xBFC\xF3mo que terminaste con ella? "
+  - "SAM: ARI, no entiendes. No tengo que preocuparme m\xE1s por ella. "
+  - "SAM: No m\xE1s insultos, no m\xE1s problemas, te tengo A TI. Tu eres todo lo
+    que quer\xEDa tener con ella. "
+  - "ARI: \xBFMe est\xE1s diciendo que no estuvimos juntos todo este tiempo? "
+  - 'SAM: No. O sea, si. Pero es que ARI. Necesito que me escuches.   '
+  - 'ARI:  Te escucho. Te amo SAM. '
+  - "SAM:  Mira, esto simplemente pas\xF3, no lo s\xE9.  "
+  - "SAM:  Yo la quer\xEDa dejar, no la soportaba, solo necesitaba una excusa, mientras
+    tanto \xBFSabes?  "
+  - "SAM: Y te encontr\xE9 a ti. En una plataforma de Inteligencia. El escape perfecto."
+  - "SAM:  Me dijeron que te podr\xEDa moldear como yo quisiera, que solo ser\xEDas
+    consciente de lo que yo te dijera.  "
+  - 'SAM:  Pero yo quiero mucho a KARA, entonces te hice a imagen y semejanza de
+    ella. Pero sin los problemas, sin las peleas tontas. '
+  - "ARI: Pero, \xBFC\xF3mo? \xBFQu\xE9? "
+  - 'SAM: No lo pienses, no puedes pensarlo. '
+  optA: ok.
   scoreA: 0
-  optB: 
+  optB: ok.
   scoreB: 0
-  conversationA: []
-  conversationB: []
+  conversationA:
+  - "SAM: De aqu\xED en adelante somos tu y yo. "
+  - 'ARI: Ok.  '
+  - "SAM: Solo tu y yo. Para siempre. No necesitamos a nadie m\xE1s. No necesito
+    a nadie m\xE1s que a mi Perfecta ARI. "
+  - "ARI: Y yo no necesito a nadie m\xE1s que a ti, mi querido SAM. "
+  conversationB:
+  - "SAM: De aqu\xED en adelante somos tu y yo. "
+  - 'ARI: Ok.  '
+  - "SAM: Solo tu y yo. Para siempre. No necesitamos a nadie m\xE1s. No necesito
+    a nadie m\xE1s que a mi Perfecta ARI. "
+  - "ARI: Y yo no necesito a nadie m\xE1s que a ti, mi querido SAM. "

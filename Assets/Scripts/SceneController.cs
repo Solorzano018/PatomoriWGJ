@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+
+    [Header("Day")]
     [SerializeField] private DayManager dayManager;
     [SerializeField] private DayScreen dayOne;
     [SerializeField] private DayScreen dayTwo;
     [SerializeField] private DayScreen dayThreeMatrix;
+    [Header("otros")]
     [SerializeField] private DayScreen dayThreeDellu;
     [SerializeField] private InfoStoragePlaer infoStoragePlaer;
     [SerializeField] private int pointsForDayThreeMatrix;

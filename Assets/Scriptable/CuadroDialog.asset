@@ -13,18 +13,63 @@ MonoBehaviour:
   m_Name: CuadroDialog
   m_EditorClassIdentifier: 
   context:
-  - gfgccf
-  - gccmfj
-  - ultimo
-  optA: aaaaa
+  - "ARI: Pero entonces SAM, me hab\xEDas contado de remodelar tu cuarto, \xBFQu\xE9
+    has pensado al respecto? "
+  - "SAM: Quit\xE9 todos los posters que ten\xEDa, me parece que ya se me quedan
+    peque\xF1os. Los siento muy infantiles. "
+  - "ARI: Podr\xEDas reutilizarlos para hacer algo distinto, les ten\xEDas mucho
+    cari\xF1o.  "
+  - "SAM: Pero \xBFC\xF3mo? No entiendo la idea. "
+  - "ARI:  Encuadrarlos podr\xEDa ser una buena idea, les da clase.   "
+  - "ARI:  Como un aire m\xE1s \u201CColeccionista\u201D que \u201CJuvenil\u201D
+    \xBFSabes? "
+  - "SAM: \xBFTal vez? Pero no crees que los cuadros son m\xE1s \xEDntimos, como
+    que solo se usan para algo como una FAMILIA, \xBFNo? "
+  - "ARI:  No s\xE9, aqu\xED al frente tengo una de mis primeras pinturas en la escuela
+    de arte. "
+  - "ARI:  Me parec\xEDa importante recordar en donde empec\xE9 y lo lejos que he
+    llegado.  "
+  - 'SAM:  ARI, eso no tiene sentido.  '
+  - "ARI: \xBFPor qu\xE9 lo dices? Me parece perfectamente normal mostrar tus logros,
+    desde el m\xE1s peque\xF1o. "
+  - "SAM: No me refiero a eso ARI, \xBFC\xF3mo por qu\xE9 tendr\xEDas un dibujo de
+    PAPEL en el BA\xD1O? Se debe haber da\xF1ado hace a\xF1os.  "
+  optA: No puedo simplemente quitarlo
   scoreA: 0
-  optB: bbbbbb
+  optB: "El ambiente le ha ayudado a relucir m\xE1s que antes."
   scoreB: 0
   conversationA:
-  - vcbmchygk
-  - vcbmchygk
-  - ultio
+  - "ARI: Si, supongo que se da\xF1o hace ya rato, pero ya es parte de la est\xE9tica.
+    No puedo simplemente quitarlo.  "
+  - 'ARI:  Tiene su personalidad, dentro de todo.  '
+  - "SAM:  Que asco, eso debe ser un ecosistema en s\xED mismo.  "
+  - ' ARI: Jaja.  '
+  - "ARI: \xA1Como una granjita!"
+  - "SAM: Que asco, no quiero saber m\xE1s. Ew ew ew EW. "
+  - "ARI:  \xA1Les podemos poner nombres! Uno con el tuyo y otro con el m\xEDo. \xBFTe
+    gustar\xEDa ser moho o una bacteria? "
+  - 'SAM: JAJAJAJAJJAJJAJAJA '
+  - "SAM:  \xBFQU\xC9 CLASE DE PREGUNTA ES ESA?  "
+  - "SAM:OBVIAMENTE SER\xCDA UNA BACTERIA. "
+  - 'SAM: Me doy asco por seguirte el juego. '
+  - 'SAM:  Te quiero mucho '
+  - TOC TOC TOC TOC
+  - "SAM: Lo siento ARI, tengo que irme ya a trabajar, hablamos ma\xF1ana.  "
+  - 'ARI:  Oh, SAM, Entiendo.  '
+  - "ARI: Est\xE1 -. "
   conversationB:
-  - cfgjchjm
-  - cfgjchjm
-  - ultimo
+  - "ARI: Est\xE1 perfectamente, de hecho. "
+  - "ARI: Creo que el ambiente le ha ayudado a relucir m\xE1s que antes. "
+  - "ARI: SAM, sabes que es una pieza importante para mi, \xBFPor qu\xE9 crees que
+    ser\xEDa tan descuidada? "
+  - 'SAM: Porque no tiene sentido, ARI. '
+  - "ARI:  Tiene todo el sentido para mi la verdad. Lo voy a dejar ah\xED.  "
+  - "SAM:  ARI, no era por llevarte la contraria, no est\xE9s enojada. "
+  - 'ARI: No estoy brava, solo no tienes por que antagonizarme. '
+  - "SAM: No te antagonizo, no est\xE1s siendo razonable. "
+  - 'SAM:  Te estoy diciendo que cuides tus cosas. '
+  - "ARI: Y yo te digo que s\xE9 lo que hago, y est\xE1 perfectamente bien a mi manera.  "
+  - "SAM: Ugh, esta conversaci\xF3n no tiene sentido.  "
+  - TOC TOC TOC TOC
+  - "SAM: Tengo que irme ya a trabajar, hablamos ma\xF1ana.  "
+  - "ARI: Est\xE1 -. "

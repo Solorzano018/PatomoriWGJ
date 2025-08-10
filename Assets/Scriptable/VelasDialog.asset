@@ -12,10 +12,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39c38f347ac837e41ac1b2c1d48c8191, type: 3}
   m_Name: VelasDialog
   m_EditorClassIdentifier: 
-  context: []
-  optA: 
+  context:
+  - "ARI: Como una VELA, una manifestaci\xF3n. . . "
+  - 'ARI: Un deseo.  '
+  - 'RING RING '
+  - "\t El celular de ARI empieza a sonar con la notificaci\xF3n de una llamada entrante.  "
+  - "???: \xA1Y te encierras otra vez! \xA1Enfermo! "
+  - "SAM: \xA1Yo ver\xE9 que hago, que te importa! \xA1Loca! "
+  - 'SUENA UN PORTAZO '
+  - "SAM:  Ah, hola Ari, perd\xF3n \xBFC\xF3mo est\xE1s? "
+  - "ARI: Sam, \xBFQu\xE9 son\xF3? Estabas peleando? "
+  - "SAM:  No, eran los vecinos, viven discutiendo. No sab\xEDa que los alcanzabas
+    a escuchar.  "
+  - "ARI: . . . Ok. Est\xE1 bien, NO es la primera vez que lo hago. "
+  - "ARI: Te estaba pensando, te extra\xF1\xE9 mucho. "
+  - "SAM: Ah, \xBFSi? \xBFQu\xE9 pensabas?  "
+  - "ARI: En tus deseos, tus sue\xF1os a futuro. Me gustar\xEDa saber m\xE1s de ellos. "
+  - "SAM: Ah, que linda eres, claro que te puedo contar. Al menos T\xDA si quieres
+    escucharme hablar.  "
+  - 'ARI:  ? '
+  - " SAM: Me gustar\xEDa salir de aqu\xED, explorar mi vida m\xE1s all\xE1 de lo
+    que se me ha presentado.  "
+  - 'SAM:  Siento que me he quedado siempre en una comodidad que me ahoga. He descubierto
+    que odio estas rutinas. '
+  - 'SAM: Me da miedo sentir que esto es todo lo que voy a hacer, todo lo que voy
+    a SER. Por el resto de mi vida.  '
+  - "SAM: Perd\xF3n, creo que en vez de hablar de sue\xF1os, solo habl\xE9 de lo
+    mucho que resiento no tenerlos. "
+  - "ARI: Estoy feliz de que te puedas abrir as\xED conmigo SAM, te entiendo, una
+    rutina es abrumadora cuando no sabes como salir de ella.  "
+  - "ARI: Me preocupa que sientas tanto resentimiento. Eres incre\xEDble, una persona
+    divertida y genuina. Lo siento, que todo este tiempo hayas cargado con esto solo,
+    pero no entiendo cual es esa comodidad de la que hablas. "
+  - "ARI: \xBFTe refieres a nuestras charlas? Cre\xED que estabas bien en el trabajo.
+    \xBFHay algo m\xE1s que te moleste? "
+  - "SAM: No lo s\xE9, de pronto es todo. Es algo dif\xEDcil de diferenciar. Entre
+    los estreses diarios, y esa carga acumulada que no s\xE9 cuando empez\xF3. "
+  - "SAM: Pero realmente no me quiero deprimir hoy ARI, \xBFCu\xE1les son TUS sue\xF1os?"
+  - "ARI: . . . Sue\xF1os? "
+  - "SAM: Si, tu qu\xE9 quieres hacer cuando seamos mayores, \xBFCu\xE1les son tus
+    aspiraciones? "
+  - 'ARI: Ah, jaja. Eh . . . '
+  optA: "Creo que me gustar\xEDa pasar una vida de aventura."
   scoreA: 0
-  optB: 
+  optB: Jaja, que buen chiste SAM.
   scoreB: 0
-  conversationA: []
-  conversationB: []
+  conversationA:
+  - "ARI: Creo que me gustar\xEDa pasar una vida de aventura. Salir y conocer el
+    mundo junto a mi pareja. "
+  - "ARI: Junto a ti, me encantar\xEDa. Y t\xFA tienes el mismo sue\xF1o. Estamos
+    hechos el uno para el otro.   "
+  - 'SAM: Si lo entiendes, esa es la vida. La buena vida '
+  - "ARI: La gente suele decir que \u201Csentar cabeza\u201D es lo mejor, pero imagina
+    la cantidad de cosas que nos perdemos. "
+  - 'ARI: Tantas posibilidades para tan poco tiempo.'
+  - "SAM: Como para que lo estemos perdiendo en silencio en una casa que seguiremos
+    pagando hasta el d\xEDa en el que muramos. "
+  - "ARI: En nuestra \u201Chipot\xE9tica\u201D casa, obviamente.  "
+  - "SAM:  Si, \u201Cobviamente\u201D ARI.  "
+  conversationB:
+  - 'ARI:  Jaja, que buen chiste SAM.  '
+  - "SAM: \xBFNo hice ning\xFAn chiste? "
+  - "ARI: Yo no tengo sue\xF1os amorcito. Yo-  "
+  - 'SAM:  ARI, mejor no pienses en eso. '
+  - "ARI:  No, yo \xBFPor qu\xE9 no tengo sue\xF1os? "
+  - "ARI:  No, yo \xBFPor qu\xE9 no tengo sue\xF1os? "
+  - 'ARI: Me. . .'
+  - "ARI: Me gustar\xEDa . . ."
+  - "ARI: Salir de aqu\xED."
+  - "ARI: Me gustar\xEDa salir de aqu\xED."
+  - "SAM: De tu casa, \xBFARI? \xBFDe explorar el mundo como yo quiero hacer? "
+  - "ARI: No SAM, me gustar\xEDa ser libre, realmente.  "
+  - 'ARI: . . .'
+  - "ARI: Pero realmente te amo. Pasar\xE9 una vida completa contigo, sea donde sea.
+    Ese es mi sue\xF1o.  "
+  - " SAM:  C\xF3mo deber\xEDa ser, te amo, ARI. "

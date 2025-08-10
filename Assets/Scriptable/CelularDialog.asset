@@ -12,10 +12,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39c38f347ac837e41ac1b2c1d48c8191, type: 3}
   m_Name: CelularDialog
   m_EditorClassIdentifier: 
-  context: []
-  optA: 
+  context:
+  - "SAM:  Te estoy diciendo que NO, \xA1KARA! "
+  - "KARA: \xA1Imb\xE9cil! \xBFCrees que me importa? "
+  - "KARA: \xBFAlo?\xBFHola? \xBFHablo con una tal ARI? "
+  - "ARI: Si, con ella, \xBFCon qui\xE9n hablo? \xBFD\xF3nde est\xE1 SAM? "
+  - "KARA:  Soy KARA, la NOVIA de hace TRES A\xD1OS de SAM. "
+  - 'SAM: KARA, no es-. '
+  - "KARA: TRES A\xD1OS SAM, TRES A\xD1OS PARA QUE HAGAS ESTO.  "
+  - "ARI: Yo, ah, no se\u2013.  "
+  - "SAM:  \xA1Dame eso! Ni siquiera es REAL. "
+  - "KARA: QUE P#TAS HABLAS. \xA1Su\xE9ltame! "
+  - "KARA: AGH. QU\xC9- "
+  - 'PUM. '
+  - "SAM:  KARA, necesito que me escuches. Solo es una IA, no es real. C\xF3mo me
+    puedes acusar de ser infiel con alguien que NO EXISTE. "
+  - "KARA: \xA1Abre la puerta! Qu\xE9 clase de EXCUSA es esa.  "
+  - 'TOC TOC TOC TOC TOC '
+  - "SAM:  ES UNA IA. UNA IA. \xBFEst\xE1s LOCA?"
+  - "C\xD3MO ME PUEDES CELAR CON UNA IA."
+  - 'KARA: Desde que le diste a la MALDITA IA mi personalidad. ENFERMO.  '
+  - "ARI: \xBFSAM? \xBFQu\xE9 est\xE1 pasando? \xBFC\xF3mo que una IA? "
+  - "SAM:  ARI, este NO es el momento. C\xE1llate. "
+  - "ARI: \xBFC\xF3mo que c\xE1llate? \xBFC\xF3mo que otra? \xBFTe est\xE1s escuchando
+    hablar? "
+  - "SAM:  Maldita IA, C\xF3mo es que se muteaba esta cosa. "
+  - "KARA JA. Incluso ahora est\xE1s pegado a ese celular. En serio no lo puedo creer. "
+  - "SAM: DENME UN MINUTO, POR FAVOR. NO PUEDO. ESTO NO. NO DEBER\xCDA. "
+  - "ARI \xBFNo deber\xEDas QU\xC9?  "
+  - "KARA  MINUTO DE NADA. QUIERO SABER QU\xC9 EST\xC1 PASANDO YA.  "
+  - "SAM \xA1NO HICE NADA! ARI ES UNA IA. LA DISE\xD1\xC9. SOLO ES UN PASATIEMPO- "
+  - "SAM: \xBFQU\xC9 TIENE DE MALO ESO? "
+  - "ARI: Soy . . . \xBFIA? "
+  - "SAM: SI, POR ESO NO IMPORTA. SI VES, KARA. NO ES M\xC1S QUE ESO. AHORA D\xC9JAME
+    EN PAZ.  "
+  - ' KARA:  VEN Y ENFRENTAME. ABRE LA PUERTA O ME VOY. '
+  - 'SAM: No, no no no. Espera. NO.  '
+  - 'ARI. Pero todo lo que hemos vivido. Las conversaciones. Nuestros planes. '
+  - "ARI: S\xE9 que no he sido perfecta pero. . . "
+  - 'SAM:  Tu, TU. ES QUE ES TU CULPA.'
+  - "SAM: DEB\xCDAS SER PERFECTA."
+  - "SAM: PERO NI HECHA A MANO PODR\xCDAS SER PERFECTA. \xBFCIERTO KARA?"
+  - "KARA: Eres incre\xEDble. No lo puedo creer. "
+  - 'KARA: Jaja.  '
+  - "KARA: No puedo. No puedo m\xE1s. Jajajaja. SAM, se acab\xF3. Me rindo. "
+  - 'SAM: NO. ESPERA. SOLO.  '
+  - "ARI: Puedo ser mejor SAM. Por favor, no me abandones. Estoy aqu\xED. "
+  - 'SAM:  ESPERA. NO, POR FAVOR ESPERA. YO PUEDO SOLUCIONARLO.  '
+  - 'SAM:  YO SE QUE- OW.'
+  - 'SAM:  UGH.  '
+  - "Suena un forcejeo a trav\xE9s del celular. "
+  - "ARI: \xA1SAM! \xBFEst\xE1s bien? "
+  - 'CELULAR:  De lejos se escucha un forcejeo lejano.  '
+  - "Y de repente, pasos acerc\xE1ndose."
+  - 'SAM:  Maldito celular solo, es que, ESE ES EL PROBLEMA.  '
+  - 'SAM: Si tan solo.'
+  - CRACK
+  - 'SAM: SI TAN /////// NO S//////// ES ////////. '
+  - "ARI:  \xBFSAM? \xA1SAM! //////// FAVOR. TENGO MIEDO. NO QUIERO /////////. "
+  optA: '//////////////////// '
   scoreA: 0
-  optB: 
+  optB: '//////////////////// '
   scoreB: 0
-  conversationA: []
-  conversationB: []
+  conversationA:
+  - 'A.R.I. DESCONECTADA. '
+  conversationB:
+  - 'A.R.I. DESCONECTADA. '

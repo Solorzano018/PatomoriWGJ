@@ -5,13 +5,19 @@ using UnityEngine.UI;
 
 public class DialogSystem : MonoBehaviour
 {
+    [Header("Contexto")]
     public TMP_Text context;
+    [Header("option A")]
     public Button botonA;
-    public Button botonB;
-    public Button botonNext;
     public TMP_Text textA;
+    [Header("option B")]
+    public Button botonB;
     public TMP_Text textB;
+    [Header("DATA")]
     DialogData data;
+    DialogDataNoOpt dataNoOpt;
+    [Header("otros")]
+    public Button botonNext;
     public InfoStoragePlaer infoStorage;
     
     private int nextLineIndex;

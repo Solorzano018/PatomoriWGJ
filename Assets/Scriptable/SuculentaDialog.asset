@@ -12,10 +12,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39c38f347ac837e41ac1b2c1d48c8191, type: 3}
   m_Name: SuculentaDialog
   m_EditorClassIdentifier: 
-  context: []
-  optA: 
+  context:
+  - 'ARI: SAM, tu crees que las plantas son conscientes de que son plantas? '
+  - "SAM: \xBFSupongo? Si, las plantas sienten y responden con respecto a lo que
+    les digas. Tanto como tu, ARI.  "
+  - "ARI: Como que \u201Ctanto como yo\u201D. Soy una persona, te estoy hablando
+    y respondiendo. Soy mucho m\xE1s consciente que una m\xEDsera SUCULENTA. "
+  - 'SAM: JAJA. '
+  - "SAM: \xBFPor qu\xE9 te molesta tanto ARI? Una planta no habla, pero se comunica
+    de otras maneras. "
+  - "SAM: \xBFPor qu\xE9 te molesta tanto ARI? Una planta no habla, pero se comunica
+    de otras maneras. "
+  optA: No me molesta
   scoreA: 0
-  optB: 
+  optB: "Porque es una DECORACI\xD3N"
   scoreB: 0
-  conversationA: []
-  conversationB: []
+  conversationA:
+  - "ARI: No me molesta, pero ser\xEDa al menos una Campanilla, algo bonito. Para
+    adorar y cuidar. "
+  - "SAM: Estoy aqu\xED exactamente para eso, ARI. "
+  - 'ARI:  Y yo feliz de serlo, amor. '
+  - 'TOC TOC TOC '
+  - "???: Abr\xE9me. Vamos a hablar de esto.   "
+  - "???: Nada puede funcionar as\xED."
+  - "ARI: \xBFOh? \xBFOtra vez est\xE1n peleando los vecinos, SAM? "
+  - "SAM: Si, otra vez est\xE1n molestando. Dame un momento. "
+  - "SAM: \xA1Estoy ocupado! \xA1C\xE1llate! "
+  - "???: Eres insoportable a veces, \xBFLo sabes? "
+  - "ARI: Que grosera se\xF1ora, \xBFNo? "
+  - 'SAM: SI, estoy pensando en mudarme solo por ella. '
+  - "ARI: Deber\xEDas planteartelo, \xBFQuieres que te ayude a buscar amor? "
+  - "SAM:  Me encantar\xEDa. Podr\xEDamos mirarlo despu\xE9s. \xBFTe parece bien? "
+  - 'ARI: Claro mi amor, lo que sea por ti. '
+  conversationB:
+  - "ARI: Porque es una DECORACI\xD3N, Es algo que existe para ser bonito. "
+  - "ARI: Cu\xE1l ser\xEDa el motivo, por ejemplo, de hablar tanto por celular, c\xF3mo
+    lo hacemos tu y yo, si mi \xFAnica raz\xF3n de ser fuera reaccionar a lo que
+    me dices y verme bonita.   "
+  - "SAM: Lo siento, no quer\xEDa que sonara as\xED. "
+  - "ARI: SAM, nunca nos hemos visto, a qu\xE9 te refieres con eso, yo\u2014. "
+  - 'ARI: . . .'
+  - "ARI: SAM, \xBFC\xF3mo empez\xF3 nuestra relaci\xF3n? "
+  - "SAM: En una fiesta, nos presentaron amigos de amigos y desde ah\xED hemos sido
+    inseparables. "
+  - "ARI: Ah, \xBFS\xED?  \xBFEntonces por qu\xE9 no recuerdo c\xF3mo te ves? "
+  - "SAM: No lo s\xE9. Puede ser por que eres una mujer de sentimientos sobre el
+    f\xEDsico.  "
+  - 'ARI: Ja, si, seguro es eso.  '

@@ -13,18 +13,44 @@ MonoBehaviour:
   m_Name: PlanchaDialog
   m_EditorClassIdentifier: 
   context:
-  - dentista
-  - dentista1
-  - dentista12
-  - dentista12
-  optA: aaaaaaa
+  - "ARI mira a su alrededor, y fija su atenci\xF3n en la plancha para pelo que tiene
+    sobre su tocador.  "
+  - " ARI mira a su alrededor, y fija su atenci\xF3n en la plancha para pelo que
+    tiene sobre su tocador.  "
+  - "ARI:  Me . . . Me estaba . . . \xA1Planchando el pelo! Si. Me estaba planchando
+    el pelo. En el ba\xF1o. Con la plancha que compr\xE9."
+  - "ARI: Y lo que pasa es que no suelo planchar porque me da\xF1a los rizos \xBFsabes?
+    Pero entonces no tengo mucha pr\xE1ctica.  "
+  - "ARI: Y tu sabes lo torpe que soy, estaba escuchando m\xFAsica y de la nada puse
+    la ma- "
+  - "SAM corta la conversaci\xF3n."
+  - 'No tienes pelo rizado. '
+  - "ARI: Es m\xE1s bien ondulado, no s\xE9, tiene sus d\xEDas. . . "
+  - 'SAM: No. Tienes. Pelo. Rizado.  '
+  - 'SAM: No. Tienes. Pelo. Rizado.  '
+  - 'ARI:  . . .  '
+  - "TUTORIAL: Elige una opci\xF3n. Tus decisiones tienen consecuencias. "
+  optA: "No he dormido muy bien estos d\xEDas"
   scoreA: 0
-  optB: bbbbb
+  optB: Creo que te ha afectado el tiempo que no nos hemos visto
   scoreB: 0
   conversationA:
-  - hola
-  - 1
-  - hola2
+  - "ARI: Ah, perd\xF3n. "
+  - "ARI:  Jajaja, no he dormido muy bien estos d\xEDas, debo estar demasiado distra\xEDda. "
+  - 'ARI:  Solo falta que se me olvide el nombre. ARI, ARI, ARI.  '
+  - 'ARI:  Jajaja. '
+  - " SAM:  ARI, no puedo creer que tengas tan buenos consejos cuando olvidas las
+    cosas m\xE1s b\xE1sicas. "
+  - "ARI: \xA1Es por eso que te tengo a ti! Tu recuerdas y yo aconsejo. La combinaci\xF3n
+    perfecta para la relaci\xF3n ideal.  "
+  - 'SAM: . . . Si tu lo dices. '
   conversationB:
-  - burro
-  - burro1
+  - 'ARI: Creo que te ha afectado el tiempo que no nos hemos visto amor, siempre
+    he tenido el pelo al menos ALGO rizado.  '
+  - 'ARI:  Me preocupa que te olvides de mi cara :c '
+  - 'SAM: Pero es que-.   '
+  - "ARI: No te preocupes, apenas logremos vernos me asegurar\xE9 PERSONALMENTE de
+    que nunca te vuelvas a olvidar de mi cabello. "
+  - " SAM: Nunca lo har\xEDa, mi novia es la persona m\xE1s importante para mi.  "
+  - 'ARI: Por eso! Vernos hasta que yo quede tatuada en tu memoria.  '
+  - 'SAM:  . . . ok, si tu lo dices. '
