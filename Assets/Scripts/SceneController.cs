@@ -55,7 +55,7 @@ public class SceneController : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("MenuScene");
+            SceneManager.LoadScene("Credits");
         }
     }
 
