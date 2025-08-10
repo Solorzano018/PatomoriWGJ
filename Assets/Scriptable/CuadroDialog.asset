@@ -35,9 +35,9 @@ MonoBehaviour:
   - "SAM: No me refiero a eso ARI, \xBFC\xF3mo por qu\xE9 tendr\xEDas un dibujo de
     PAPEL en el BA\xD1O? Se debe haber da\xF1ado hace a\xF1os.  "
   optA: No puedo simplemente quitarlo
-  scoreA: 0
+  scoreA: -1
   optB: "El ambiente le ha ayudado a relucir m\xE1s que antes."
-  scoreB: 0
+  scoreB: 1
   conversationA:
   - "ARI: Si, supongo que se da\xF1o hace ya rato, pero ya es parte de la est\xE9tica.
     No puedo simplemente quitarlo.  "

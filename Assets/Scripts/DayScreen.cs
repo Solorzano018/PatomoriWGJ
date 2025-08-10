@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DayScreen : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class DayScreen : MonoBehaviour
     [SerializeField] private DialogDataNoOpt InitialDialog;
     [SerializeField] private DialogDataNoOpt InterDialog;
     [SerializeField] private DialogDataNoOpt FinalDialog;
+    [SerializeField] private Image finImage;
 
     public int DayNumber => dayNumber;
 
@@ -17,8 +19,15 @@ public class DayScreen : MonoBehaviour
     {
         if (countItems == 0)
         {
-            botonScene.SetActive(true);
+            SetRedyForNextDay();
         }
+    }
+
+    private void SetRedyForNextDay()
+    {
+        botonScene.SetActive(true);
+        if (finImage)
+            finImage.gameObject.SetActive(true);
     }
 
     internal void CompleteItem()
@@ -30,7 +39,7 @@ public class DayScreen : MonoBehaviour
             if (FinalDialog)
                 dialogSystem.ShowDialogNoOpt(FinalDialog);
             else
-                botonScene.SetActive(true);
+                SetRedyForNextDay();
             Debug.Log("Se activo");
         }
         else if (countItems == 1)
@@ -42,6 +51,8 @@ public class DayScreen : MonoBehaviour
 
     private void Awake()
     {
+        if (finImage)
+            finImage.gameObject.SetActive(false);
         countItems = GetComponentsInChildren<Item>(true).Length;
     }
 

@@ -24,9 +24,9 @@ MonoBehaviour:
   - "SAM: \xBFPor qu\xE9 te molesta tanto ARI? Una planta no habla, pero se comunica
     de otras maneras. "
   optA: No me molesta
-  scoreA: 0
+  scoreA: -1
   optB: "Porque es una DECORACI\xD3N"
-  scoreB: 0
+  scoreB: 1
   conversationA:
   - "ARI: No me molesta, pero ser\xEDa al menos una Campanilla, algo bonito. Para
     adorar y cuidar. "

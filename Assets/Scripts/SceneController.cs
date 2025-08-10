@@ -17,17 +17,13 @@ public class SceneController : MonoBehaviour
     [SerializeField] private DayScreen dayThreeDellu;
     [SerializeField] private InfoStoragePlaer infoStoragePlaer;
     [SerializeField] private int pointsForDayThreeMatrix;
-    [SerializeField] private Image finImageM;
-    [SerializeField] private Image finImageD;
+    
 
     private DayScreen currentDay;
 
     private void Awake()
     {
-        //finImageM = GetComponent<Image>();
-        //finImageM.enabled = false;
-        //finImageD = GetComponent<Image>();
-        //finImageD.enabled = false;
+        
         dayOne.gameObject.SetActive(false);
         dayTwo.gameObject.SetActive(false);
         dayThreeMatrix.gameObject.SetActive(false);

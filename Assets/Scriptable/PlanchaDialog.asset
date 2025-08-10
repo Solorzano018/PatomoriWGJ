@@ -31,9 +31,9 @@ MonoBehaviour:
   - 'ARI:  . . .  '
   - "TUTORIAL: Elige una opci\xF3n. Tus decisiones tienen consecuencias. "
   optA: "No he dormido muy bien estos d\xEDas"
-  scoreA: 0
+  scoreA: -1
   optB: Creo que te ha afectado el tiempo que no nos hemos visto
-  scoreB: 0
+  scoreB: 1
   conversationA:
   - "ARI: Ah, perd\xF3n. "
   - "ARI:  Jajaja, no he dormido muy bien estos d\xEDas, debo estar demasiado distra\xEDda. "

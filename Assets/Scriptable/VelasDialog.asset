@@ -54,9 +54,9 @@ MonoBehaviour:
     aspiraciones? "
   - 'ARI: Ah, jaja. Eh . . . '
   optA: "Creo que me gustar\xEDa pasar una vida de aventura."
-  scoreA: 0
+  scoreA: -1
   optB: Jaja, que buen chiste SAM.
-  scoreB: 0
+  scoreB: 1
   conversationA:
   - "ARI: Creo que me gustar\xEDa pasar una vida de aventura. Salir y conocer el
     mundo junto a mi pareja. "
