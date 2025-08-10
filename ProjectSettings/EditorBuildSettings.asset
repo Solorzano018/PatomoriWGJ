@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DayManager.unity
     guid: 65ec8dd4f57e70f4d89f7d6fe267a2ae
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: a357ed443e25fed4f85fca300090fb1e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

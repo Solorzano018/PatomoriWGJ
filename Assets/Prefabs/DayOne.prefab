@@ -336,12 +336,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -564,7 +564,7 @@ Transform:
   m_GameObject: {fileID: 7237911986222022756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -93, y: -37, z: 0}
+  m_LocalPosition: {x: -93, y: 94, z: 0}
   m_LocalScale: {x: 53.89263, y: 53.89263, z: 53.89263}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -698,6 +698,7 @@ MonoBehaviour:
   InitialDialog: {fileID: 11400000, guid: f108eb10231903140b1435fb7df6d6e6, type: 2}
   InterDialog: {fileID: 11400000, guid: a521500ab0644234ca566bec8e5819d4, type: 2}
   FinalDialog: {fileID: 11400000, guid: ab84fb58b5593704c9a813af9bf3cf19, type: 2}
+  finImage: {fileID: 0}
 --- !u!1 &8327857680674940243
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,7 +776,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 50
   m_Sprite: {fileID: 21300000, guid: 2a02da87553049844aab470e28367405, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -863,11 +864,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3222181337565668570, guid: 10ef62c205ae56349a675115ccc499ba, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -486
+      value: -499
       objectReference: {fileID: 0}
     - target: {fileID: 3222181337565668570, guid: 10ef62c205ae56349a675115ccc499ba, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -207
+      value: -72
       objectReference: {fileID: 0}
     - target: {fileID: 3222181337565668570, guid: 10ef62c205ae56349a675115ccc499ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -948,7 +949,7 @@ PrefabInstance:
     - target: {fileID: 8966839340795084799, guid: 10ef62c205ae56349a675115ccc499ba, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2d5f6f4e86d3bbf4ea2651f50d5ab570, type: 3}
+      objectReference: {fileID: 21300000, guid: a30ce14950345684ca63d52044f2592e, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1041,7 +1042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3222181337565668570, guid: 10ef62c205ae56349a675115ccc499ba, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 682
+      value: 591
       objectReference: {fileID: 0}
     - target: {fileID: 3222181337565668570, guid: 10ef62c205ae56349a675115ccc499ba, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1082,7 +1083,7 @@ PrefabInstance:
     - target: {fileID: 8966839340795084799, guid: 10ef62c205ae56349a675115ccc499ba, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6533334c220a3e54799aafe7cb7d9139, type: 3}
+      objectReference: {fileID: 21300000, guid: 51c26f8bc59d51c4a8d82bede243bfa3, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
