@@ -3,6 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneController : MonoBehaviour
 {
@@ -16,11 +17,17 @@ public class SceneController : MonoBehaviour
     [SerializeField] private DayScreen dayThreeDellu;
     [SerializeField] private InfoStoragePlaer infoStoragePlaer;
     [SerializeField] private int pointsForDayThreeMatrix;
+    [SerializeField] private Image finImageM;
+    [SerializeField] private Image finImageD;
 
     private DayScreen currentDay;
 
     private void Awake()
     {
+        //finImageM = GetComponent<Image>();
+        //finImageM.enabled = false;
+        //finImageD = GetComponent<Image>();
+        //finImageD.enabled = false;
         dayOne.gameObject.SetActive(false);
         dayTwo.gameObject.SetActive(false);
         dayThreeMatrix.gameObject.SetActive(false);
@@ -42,6 +49,7 @@ public class SceneController : MonoBehaviour
             {
                 dayManager.SwitchDay(dayTwo, dayThreeMatrix);
                 currentDay = dayThreeMatrix;
+
             }
             else
             {
@@ -55,8 +63,11 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    internal void CompleteCurrentDayItem()
+    internal void CompleteCurrentDayItem(bool isNoOptDialog)
     {
-        currentDay.CompleteItem();
+        if (isNoOptDialog)
+            currentDay.CompleteNoOptDialog();
+        else
+            currentDay.CompleteItem();
     }
 }

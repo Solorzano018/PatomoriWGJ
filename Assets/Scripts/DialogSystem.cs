@@ -23,16 +23,27 @@ public class DialogSystem : MonoBehaviour
     private int nextLineIndex;
     private string[] currentLines;
     private bool shouldDisableOnFinish;
+    private bool isNoOptDialog;
+
     [SerializeField] private SceneController botonScene;
 
     private void Awake()
     {
         gameObject.SetActive(false);
     }
+    private void Start()
+    {
+        if (dataNoOpt != null)
+        {
+            ShowDialogNoOpt(dataNoOpt);
+
+        }
+    }
 
     public void ShowDialog(DialogData inData)
     {
         gameObject.SetActive(true);
+        isNoOptDialog = false;
         data = inData;
         textA.text = data.optA;
         textB.text = data.optB;
@@ -51,6 +62,19 @@ public class DialogSystem : MonoBehaviour
         StartLinesArray(data.conversationB, true);
         infoStorage.AddPoints(data.scoreB);
     }
+    public void ShowDialogNoOpt(DialogDataNoOpt inData)
+    {
+        gameObject.SetActive(true);
+        isNoOptDialog = true;
+        dataNoOpt = inData;
+
+        // Ocultar permanentemente botones A y B
+        botonA.gameObject.SetActive(false);
+        botonB.gameObject.SetActive(false);
+
+        StartLinesArray(dataNoOpt.context, true);
+    }
+
 
     private void StartLinesArray(string[] linesArray, bool shouldDisableOnFinish)
     {
@@ -69,7 +93,7 @@ public class DialogSystem : MonoBehaviour
         if (shouldDisableOnFinish && nextLineIndex == currentLines.Length)
         {
             gameObject.SetActive(false);
-            botonScene.CompleteCurrentDayItem();
+            botonScene.CompleteCurrentDayItem(isNoOptDialog);
             return;
         }
 
