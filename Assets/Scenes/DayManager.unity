@@ -715,7 +715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayNumber: 1
-  botonScene: {fileID: 1484333580}
+  botonScene: {fileID: 1484333575}
 --- !u!1 &401859399
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayNumber: 3
-  botonScene: {fileID: 1484333580}
+  botonScene: {fileID: 1484333575}
 --- !u!224 &439895538 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3222181337565668570, guid: 10ef62c205ae56349a675115ccc499ba, type: 3}
@@ -1784,7 +1784,7 @@ MonoBehaviour:
   textA: {fileID: 1631757512}
   textB: {fileID: 1752075260}
   infoStorage: {fileID: 1704553765}
-  botonScene: {fileID: 1484333580}
+  botonScene: {fileID: 1626856772}
 --- !u!114 &1084558829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2070,7 +2070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayNumber: 2
-  botonScene: {fileID: 1484333580}
+  botonScene: {fileID: 1484333575}
 --- !u!1 &1435976527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,7 +2218,6 @@ GameObject:
   - component: {fileID: 1484333579}
   - component: {fileID: 1484333578}
   - component: {fileID: 1484333577}
-  - component: {fileID: 1484333580}
   m_Layer: 5
   m_Name: NextScene
   m_TagString: Untagged
@@ -2290,8 +2289,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1484333580}
-        m_TargetAssemblyTypeName: BotonScene, Assembly-CSharp
+      - m_Target: {fileID: 1626856772}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: OnButtonPressed
         m_Mode: 1
         m_Arguments:
@@ -2340,25 +2339,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484333575}
   m_CullTransparentMesh: 1
---- !u!114 &1484333580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484333575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 104fb9066be06204dafe00eb9517cfb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dayManager: {fileID: 1435976534}
-  dayOne: {fileID: 336163481}
-  dayTwo: {fileID: 1286397058}
-  dayThreeMatrix: {fileID: 401859402}
-  dayThreeDellu: {fileID: 1604597247}
-  infoStoragePlaer: {fileID: 1704553765}
-  pointsForDayThreeMatrix: 3
 --- !u!1001 &1538040366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2661,7 +2641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayNumber: 3
-  botonScene: {fileID: 1484333580}
+  botonScene: {fileID: 1484333575}
 --- !u!1 &1626856769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,6 +2652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1626856771}
   - component: {fileID: 1626856770}
+  - component: {fileID: 1626856772}
   m_Layer: 0
   m_Name: SceneController
   m_TagString: Untagged
@@ -2706,6 +2687,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1626856772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626856769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104fb9066be06204dafe00eb9517cfb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dayManager: {fileID: 1435976534}
+  dayOne: {fileID: 336163481}
+  dayTwo: {fileID: 1286397058}
+  dayThreeMatrix: {fileID: 401859402}
+  dayThreeDellu: {fileID: 1604597247}
+  infoStoragePlaer: {fileID: 1704553765}
+  pointsForDayThreeMatrix: 3
 --- !u!1 &1631757510
 GameObject:
   m_ObjectHideFlags: 0

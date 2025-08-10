@@ -17,7 +17,7 @@ public class DialogSystem : MonoBehaviour
     private int nextLineIndex;
     private string[] currentLines;
     private bool shouldDisableOnFinish;
-    [SerializeField] private BotonScene botonScene;
+    [SerializeField] private SceneController botonScene;
 
     private void Awake()
     {

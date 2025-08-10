@@ -5,7 +5,7 @@ public class DayScreen : MonoBehaviour
 {
     [SerializeField] private int dayNumber;
     private int countItems;
-    [SerializeField] private BotonScene botonScene;
+    [SerializeField] private GameObject botonScene;
 
     public int DayNumber => dayNumber;
 
@@ -14,7 +14,7 @@ public class DayScreen : MonoBehaviour
         countItems--;
         if (countItems == 0)
         {
-            botonScene.gameObject.SetActive(true);
+            botonScene.SetActive(true);
             Debug.Log("Se activo");
         }
     }

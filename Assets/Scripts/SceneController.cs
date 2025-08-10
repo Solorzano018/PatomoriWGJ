@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-public class BotonScene : MonoBehaviour
+public class SceneController : MonoBehaviour
 {
     [SerializeField] private DayManager dayManager;
     [SerializeField] private DayScreen dayOne;

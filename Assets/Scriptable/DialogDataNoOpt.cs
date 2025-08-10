@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NuevoObjeto", menuName = "Datos/DialogData")]
+[CreateAssetMenu(fileName = "NuevoObjeto", menuName = "Datos/DialogDataNoOpt")]
 
 public class DialogDataNoOpt : ScriptableObject
 {
