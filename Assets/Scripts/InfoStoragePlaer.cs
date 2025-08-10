@@ -7,6 +7,7 @@ public class InfoStoragePlaer : MonoBehaviour
     public void AddPoints(int pointsToAdd)
     {
         totalPoints += pointsToAdd;
+        totalPoints = Mathf.Max(totalPoints, 0);
         Debug.Log("Hay " +  totalPoints + "puntos");
     }
 

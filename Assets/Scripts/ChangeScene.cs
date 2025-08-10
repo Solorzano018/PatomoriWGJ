@@ -7,7 +7,7 @@ using TMPro;
 
 public class ChangeScene : MonoBehaviour
 {
-    FadeOut fadeout;
+    LoadingScreen fadeout;
     public void LoadNextScene()
     {
         int currentIndex = SceneManager.GetActiveScene().buildIndex;

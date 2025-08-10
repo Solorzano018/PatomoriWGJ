@@ -3,7 +3,7 @@ using UnityEngine;
 public class Points : MonoBehaviour
 {
     public int infoValue;
-    private InfoStoragePlaer playerInfo;
+    [SerializeField] private InfoStoragePlaer playerInfo;
 
     private void Start()
     {
